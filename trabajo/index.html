@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sumar N Números Pames</title>
+    <title>Sumar N Números Pares</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-    <h1>Sumar N Números Pares</h1>
-    <label for="inputNumber">Ingresa un número (N):</label>
-    <button id="calculateButton">Calcular</button>
+        <h1>Sumar N Números Pares</h1>
+        <label for="inputNumber">Ingresa un número (N):</label>
+        <input type="number" id="inputNumber" min="1" required>
+        <button id="calculateButton">Calcular</button>
+        <p id="result"></p> <!-- Se agregará el resultado aquí -->
     </div>
+
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
+
