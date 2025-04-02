@@ -8,7 +8,6 @@ function sumarNPares() {
 
     while (count < n) {
         let num = parseInt(prompt("Ingrese un número par:"));
-
         if (!isNaN(num)) { 
             if (num % 2 === 0) { 
                 numerosPares.push(num); 
@@ -21,7 +20,6 @@ function sumarNPares() {
             alert("Eso no es un número válido. Inténtelo nuevamente.");
         }
     }
-
     alert(`Los números pares ingresados fueron: ${numerosPares.join(", ")}`);
     alert(`La suma de los números pares es: ${suma}`);
 }
